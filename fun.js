@@ -1,7 +1,9 @@
 //square using function
 
 const prompt = require("prompt-sync" )();
+
 let a = prompt("Enter a number: ");
+a = parseInt(a);
 function square(n) {
 console. log(n * n);
 }
@@ -11,8 +13,8 @@ square(a);
 
 //prime number using function
 
-const prompt = require("prompt-sync" )();
 let num = prompt("Enter a number: ");
+num = parseInt(num);
 function isPrime(n) {
     if (n <= 1) {
         return false;

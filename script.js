@@ -90,10 +90,9 @@ for (rev = 0; num > 0; num = Math.floor(num / 10)) {
     rev = rev * 10 + digit;
 }
 
-console.log(rev);m nvc
+console.log(rev);
 
- console.log("net")
+ console.log("net");
 
 
 
-l
